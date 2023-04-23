@@ -1,0 +1,61 @@
+body{
+    background-image: url(/images/movie19-1660x940-en.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: sticky;
+    top: 0;
+    
+}
+.pokemons-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 950px;
+}
+
+
+.pokemon-items{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 220px;
+    padding: 20px;
+    background: rgb(51,246,227);
+background: linear-gradient(270deg, rgba(51,246,227,1) 0%, rgba(255,255,255,1) 50%, rgba(0,245,255,1) 100%);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.pokemon-items:nth-child(even){
+    background-color:orange ;
+}
+.pokemon-items:hover{
+    color: #fff;
+    transform:scale(1.1);
+    z-index: 33;
+    -webkit-box-shadow: -4px -4px 30px 0px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: -4px -4px 30px 0px rgba(34, 60, 80, 0.2);
+box-shadow: -4px -4px 30px 0px rgba(34, 60, 80, 0.2);
+    transition: 0.3s ease-in-out;
+}
+
+.time{
+    position: absolute;
+    padding: 5px 20px;
+    background-color: lightgreen;
+    bottom: 10px;
+    right: 0;
+    border-radius: 10px;
+}
+.img-item:hover{
+    transform: scale(1.2);
+    transition: 0.3s ease-in;
+}
+.number{
+    position: absolute;
+    padding: 5px 20px;
+    background-color:khaki;
+    top: 50px;
+    right: 0;
+    border-radius: 10px;
+}
